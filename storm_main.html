@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Storm Calculator</title>
+		<script type="text/javascript" src="functions.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="allItems">
+			<img id="img_helmet" src="images/storm_helmet.png"/>
+			<div id="buttons">
+				<FORM NAME="StormCalculator">
+					<TABLE>
+						<INPUT TYPE="text" NAME="textBoxVisor" id="textBox" SIZE="15" VALUE = "0"></INPUT>
+					</TABLE>
+				</FORM>
+				<INPUT TYPE="image" id="clearButton" src="images/storm_clear.png" value="0" onclick="clearAll('0')"/></INPUT>
+				<INPUT TYPE="image" id="divideButton" src="images/storm_divide.png" value="/" onclick="button(value)"/></INPUT>
+				<INPUT TYPE="image" id="equalsButton" src="images/storm_equals.png" value="=" onclick="calcule()"/></INPUT>	
+				<INPUT TYPE="image" id="minusButton" src="images/storm_minus.png" value="-" onclick="button(value)"/></INPUT>
+				<INPUT TYPE="image" id="plusButton" src="images/storm_plus.png" value="+" onclick="button(value)"/></INPUT>
+				<INPUT TYPE="image" id="timesButton" src="images/storm_times.png" value="*" onclick="button(value)"></INPUT>
+				<INPUT TYPE="image" id="oneButton" src="images/one.png" value="1" onclick="button(value)"></INPUT>
+				<INPUT TYPE="image" id="twoButton" src="images/two.png" value="2" onclick="button(value)"></INPUT>
+				<INPUT TYPE="image" id="threeButton" src="images/three.png" value="3" onclick="button(value)"></INPUT>				
+				<INPUT TYPE="image" id="zeroButton" src="images/zero.png" value="0" onclick="button(value)"></INPUT>
+				<INPUT TYPE="image" id="fourButton" src="images/four.png" value="4" onclick="button(value)"></INPUT>
+				<INPUT TYPE="image" id="fiveButton" src="images/five.png" value="5" onclick="button(value)"></INPUT>				
+				<INPUT TYPE="image" id="sixButton" src="images/six.png" value="6" onclick="button(value)"></INPUT>
+				<INPUT TYPE="image" id="sevenButton" src="images/seven.png" value="7" onclick="button(value)"></INPUT>
+				<INPUT TYPE="image" id="eightButton" src="images/eight.png" value="8" onclick="button(value)"></INPUT>				
+				<INPUT TYPE="image" id="nineButton" src="images/nine.png" value="9" onclick="button(value)"></INPUT>
+			</div>
+		</div>			
+	</body>
+</html>
