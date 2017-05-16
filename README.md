@@ -1,7 +1,6 @@
 # StormCalculator
 A simple calculator in a stormtrooper's helmet
+Just download the package (.rar) on link: 
+https://drive.google.com/file/d/0BzulsQrZoJwITFAwRjNFUmNBOE0/view?usp=sharing
 
-Due to incompatibility problems, the images of the project were stored on Google drive on link: 
-https://drive.google.com/drive/folders/0BzulsQrZoJwIMHloM1lyT0ZFVUk?usp=sharing
-
-So, just download the images folder and put it in the folder of project... Enjoy :D
+So.. unpack it on the folder of the project.. Enjoy :D
